@@ -1,0 +1,11 @@
+Set-Content .gitignore @(
+"node_modules/"
+".env"
+".env.*"
+"!.env.example"
+""
+"dist/"
+"build/"
+".next/"
+"coverage/"
+)
